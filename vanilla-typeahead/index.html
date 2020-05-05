@@ -88,8 +88,8 @@
     const search = document.querySelector('input');
     
     fetch('https://www.swapi.co/api/people')
-        .then(response => response.json())
-        .then(response => characters.push(...response.results))
+        .then(response  => response.json())
+        .then(response  => characters.push(...response.results))
     
     function filterText() {
         const filtered = characters
