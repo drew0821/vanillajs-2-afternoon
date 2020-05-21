@@ -45,4 +45,4 @@ window.addEventListener('mouseover', function() {
 });
 window.addEventListener('mouseout', function() {
   clearInterval(drawId);
-});
+} );
